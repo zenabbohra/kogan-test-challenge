@@ -1,4 +1,4 @@
-const {calculateCubicWeightPerPage} = require('./index');
+const {calculateCubicWeightPerPage} = require('./calculate');
 
 describe('calculateCubicWeightPerPage()', () => {
   it('should filter out products that are not Air Conditioners', () => {
