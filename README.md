@@ -4,11 +4,25 @@ This is a node.js app to calculate average cubic weight of air conditioners usin
 
 To begin with, clone this repo and run below scripts in the project directory.
 
-### npm install
-Installs the dependencies in the local node_modules folder.
+### Install node.js
 
-### npm start
-Runs the app in the development mode.
+Install node.js version `v12.14.1`
 
-### npm test
-Runs all the tests in the project using Jest.
+### Install dependencies
+
+Run the following command to install dependencies.
+```bash
+npm install
+```
+
+### Run the script
+```bash
+npm start
+```
+
+### Run the tests
+
+Runs the following command to run all the tests in the project using Jest
+```bash
+npm test
+```
