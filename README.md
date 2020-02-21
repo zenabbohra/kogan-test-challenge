@@ -4,6 +4,8 @@ This is a node.js app to calculate average cubic weight of air conditioners usin
 
 To begin with, clone this repo and run below scripts in the project directory.
 
+## Using Node.js to run the script
+
 ### Install node.js
 
 Install node.js version `v12.14.1`
@@ -22,7 +24,33 @@ npm start
 
 ### Run the tests
 
-Runs the following command to run all the tests in the project using Jest
+Use the following command to run all the tests in the project using Jest
 ```bash
 npm test
+```
+
+## Using Docker to run the script
+
+If you do not have node.js installed on your dev machine,
+you can run the script in Docker
+
+### Build
+
+You can run the following command to build the image:
+```
+docker build -t zenabbohra/kogan .
+```
+
+### Run the script
+
+To run the script, use the following command:
+```
+docker run zenabbohra/kogan:latest
+```
+
+### Run the tests
+
+To run the tests, use the following command:
+```
+docker run zenabbohra/kogan:latest test
 ```
